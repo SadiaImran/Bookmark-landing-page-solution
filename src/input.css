@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.btn{
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300 ;
+}
+.btn-purple{
+    @apply bg-bookmark-purple text-white border-4 border-bookmark-purple ; 
+}
+.btn-white{
+    @apply bg-bookmark-white hover:border-bookmark-purple text-bookmark-grey border-bookmark-white ; 
+}
+
+.btn-red{
+    @apply bg-bookmark-red text-white rounded-md px-7 py-3 uppercase border-4 border-bookmark-red;
+}
+
+.features {
+    @apply bg-bookmark-red transition duration-500
+}
